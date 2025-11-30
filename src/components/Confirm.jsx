@@ -51,7 +51,7 @@ const Confirm = () => {
         <Typography
           variant="body1"
           sx={{
-            fontFamily: "'Quicksand'",
+            fontFamily: "'Catchy'",
             fontSize: { xs: "1.2rem", md: "1.5rem" },
             color: "#000000",
             mb: 4,

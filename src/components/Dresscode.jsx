@@ -59,7 +59,7 @@ const Dresscode = () => {
           <Typography
             variant="h5"
             sx={{
-              fontFamily: "'Quicksand'",
+              fontFamily: "'Catchy'",
               fontSize: { xs: "1.2rem", md: "1.5rem" },
               color: "#000000",
             }}

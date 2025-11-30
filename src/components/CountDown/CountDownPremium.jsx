@@ -89,7 +89,7 @@ const Countdown = () => {
                     fontSize: { xs: "2rem", md: "4rem" },
                     fontWeight: "bold",
                     color: "#000000",
-                    fontFamily: "'Quicksand'",
+                    fontFamily: "'Catchy'",
                   }}
                 >
                   {String(value).padStart(2, "0")}
@@ -98,7 +98,7 @@ const Countdown = () => {
                   sx={{
                     textTransform: "capitalize",
                     fontSize: { xs: "1rem", md: "1.2rem" },
-                    fontFamily: "'Quicksand'",
+                    fontFamily: "'Catchy'",
                     color: "#000000",
                   }}
                 >

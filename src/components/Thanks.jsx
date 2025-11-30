@@ -41,7 +41,7 @@ const Thanks = () => {
       >
         <Typography
           sx={{
-            fontFamily: "'Quicksand'",
+            fontFamily: "'Catchy'",
             fontSize: { xs: "1.2rem", md: "1.6rem" },
             color: "#000000",
             lineHeight: 1.5,

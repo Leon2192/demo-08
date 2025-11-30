@@ -71,7 +71,7 @@ const InfoEvent = () => {
             <Typography
               sx={{
                 mb: 1,
-                fontFamily: "'Quicksand', serif",
+                fontFamily: "'Catchy', serif",
                 fontSize: { xs: "1rem", md: "1.2rem" },
                 color: "#000000",
                 fontWeight: "bold",
@@ -84,7 +84,7 @@ const InfoEvent = () => {
             <Typography
               sx={{
                 mb: 1,
-                fontFamily: "'Quicksand', serif",
+                fontFamily: "'Catchy', serif",
                 fontSize: { xs: "1rem", md: "1.2rem" },
                 color: "#000000",
                 fontWeight: "bold",
@@ -97,7 +97,7 @@ const InfoEvent = () => {
             <Typography
               sx={{
                 mb: 3,
-                fontFamily: "'Quicksand', serif",
+                fontFamily: "'Catchy', serif",
                 fontSize: { xs: "1rem", md: "1.2rem" },
                 color: "#000000",
                 fontWeight: "bold",
@@ -118,7 +118,7 @@ const InfoEvent = () => {
                 borderRadius: "50px",
                 px: 3,
                 py: 1,
-                fontFamily: "'Quicksand', serif",
+                fontFamily: "'Catchy', serif",
                 fontWeight: "bold",
                 "&:hover": {
                   backgroundColor: "#333333",

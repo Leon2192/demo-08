@@ -12,7 +12,7 @@ export default function ButtonLinks({
     borderRadius: 999,
     px: 4,
     backgroundColor: "#000000", // 🔑 fondo negro
-    fontFamily: "'Quicksand'",
+    fontFamily: "'Catchy'",
     color: "#FFFFFF", // 🔑 texto blanco
     boxShadow: "none",
     transition: "transform .2s ease, background-color .2s ease, color .2s ease",

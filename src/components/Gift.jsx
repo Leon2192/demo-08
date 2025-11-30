@@ -59,7 +59,7 @@ const Gift = () => {
           <Typography
             variant="h6"
             sx={{
-              fontFamily: "'Quicksand'",
+              fontFamily: "'Catchy'",
               fontSize: { xs: "1.2rem", md: "2rem" },
               color: "#000000",
               fontWeight: "semibold",
@@ -152,7 +152,7 @@ const Gift = () => {
               variant="body1"
               gutterBottom
               sx={{
-                fontFamily: "'Quicksand'",
+                fontFamily: "'Catchy'",
                 fontSize: { xs: "1.3rem", md: "1.5rem" },
                 color: "#000000",
                 mb: 1,
