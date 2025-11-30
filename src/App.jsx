@@ -30,7 +30,7 @@ function Loader() {
     >
       <Box
         component="img"
-        src="/images/logo2.jpeg"
+        src="/images/logo.png"
         alt="Logo"
         sx={{
           width: 175,
