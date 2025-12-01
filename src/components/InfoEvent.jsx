@@ -104,6 +104,7 @@ const InfoEvent = () => {
                 color: "#D096FF",
                 fontWeight: 600,
                 lineHeight: 1.4,
+                px:'2px'
               }}
             >
               {direccion}
