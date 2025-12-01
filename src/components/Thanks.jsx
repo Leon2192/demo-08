@@ -40,11 +40,11 @@ const Thanks = () => {
       >
         <Typography
           sx={{
-            fontFamily: "'Catchy'",
+            fontFamily: "'Prata'",
             fontSize: { xs: "1.3rem", md: "1.7rem" },
-            color: "#C57DFF",
+            color: "#8D47C7",
             lineHeight: 1.5,
-            fontWeight: "bold",
+            fontWeight: "900",
             // 🔥 Sombra más fuerte y notoria
             // textShadow:
             //   "0 0 4px rgba(0,0,0,0.9), 0 0 10px rgba(0,0,0,0.9), 0 2px 6px rgba(0,0,0,0.8)",
@@ -54,7 +54,7 @@ const Thanks = () => {
           Uno de esos momentos ha llegado:
           <br />
           <br />
-          <strong>Mis 15 años</strong>
+          <strong>MIS 15 AÑOS</strong>
           <br />
           <br />
           Y deseo compartirlo con las personas que han estado para mí y mis padres,
