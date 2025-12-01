@@ -12,20 +12,19 @@ const Thanks = () => {
         alignItems: "center",
         justifyContent: "center",
         textAlign: "center",
-        // 🖼 Fondo que pediste
-        backgroundImage: 'url("/images/fondo4.gif")',
+        // 🖼 Fondo
+        backgroundImage: 'url("/images/bg3.gif")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         overflow: "hidden",
       }}
     >
-      {/* Capa ligera para mejorar legibilidad del texto */}
+      {/* Capa opcional (por ahora sin color extra) */}
       <Box
         sx={{
           position: "absolute",
           inset: 0,
-         
           zIndex: 0,
         }}
       />
@@ -42,10 +41,13 @@ const Thanks = () => {
         <Typography
           sx={{
             fontFamily: "'Catchy'",
-            fontSize: { xs: "1.2rem", md: "1.6rem" },
-            color: "#000000",
+            fontSize: { xs: "1.3rem", md: "1.7rem" },
+            color: "#C57DFF",
             lineHeight: 1.5,
-            textShadow: "0 2px 6px rgba(0,0,0,0.7)",
+            fontWeight: "bold",
+            // 🔥 Sombra más fuerte y notoria
+            // textShadow:
+            //   "0 0 4px rgba(0,0,0,0.9), 0 0 10px rgba(0,0,0,0.9), 0 2px 6px rgba(0,0,0,0.8)",
           }}
         >
           Existen momentos en la vida que imaginamos, soñamos y esperamos.

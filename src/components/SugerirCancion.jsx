@@ -1,5 +1,4 @@
 import { Box, Typography, Button, Fade } from "@mui/material";
-import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import { useInView } from "react-intersection-observer";
 
 const SuggestSong = () => {
@@ -20,11 +19,10 @@ const SuggestSong = () => {
         justifyContent: "center",
         textAlign: "center",
         // 🖼 Fondo unificado
-        backgroundImage: 'url("/images/fondo4.gif")',
+        backgroundImage: 'url("/images/bg3.gif")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-  
       }}
     >
       <Fade in={inView} timeout={1000}>
@@ -36,18 +34,15 @@ const SuggestSong = () => {
             justifyContent: "center",
           }}
         >
-          {/* Ícono musical en lugar del GIF */}
-          <MusicNoteIcon
+          {/* Imagen musical en lugar del ícono */}
+          <Box
+            component="img"
+            src="/images/song.gif"
+            alt="Música"
             sx={{
-              fontSize: { xs: 80, md: 100 },
-              color: "#000000",
+              width: { xs: 80, md: 110 },
+              height: "auto",
               mb: 1,
-              animation: "pulse 1.8s infinite",
-              "@keyframes pulse": {
-                "0%": { transform: "scale(1)" },
-                "50%": { transform: "scale(1.08)" },
-                "100%": { transform: "scale(1)" },
-              },
             }}
           />
 
@@ -56,7 +51,8 @@ const SuggestSong = () => {
             sx={{
               fontFamily: "'Prata'",
               fontSize: { xs: "1.4rem", md: "1.8rem" },
-              color: "#000000",
+               color: "#AD61EB",
+              fontWeight: 600,
               mb: 1,
             }}
           >
@@ -68,7 +64,8 @@ const SuggestSong = () => {
             sx={{
               fontFamily: "'Prata'",
               fontSize: { xs: "1.2rem", md: "1.5rem" },
-              color: "#000000",
+              color: "#D096FF",
+              fontWeight: 600,
               mb: 4,
             }}
           >
@@ -85,7 +82,7 @@ const SuggestSong = () => {
             sx={{
               borderRadius: 999,
               px: 4,
-              backgroundColor: "#000000",
+              backgroundColor: "#AD61EB",
               fontFamily: "'Prata'",
               color: "#ffffff",
               boxShadow: "none",

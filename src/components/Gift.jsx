@@ -6,7 +6,6 @@ import {
   Backdrop,
   IconButton,
 } from "@mui/material";
-import CardGiftcardIcon from "@mui/icons-material/CardGiftcard";
 import CloseIcon from "@mui/icons-material/Close";
 import { useState } from "react";
 import { useInView } from "react-intersection-observer";
@@ -32,12 +31,10 @@ const Gift = () => {
         flexDirection: "column",
         alignItems: "center",
         textAlign: "center",
-        // 🖼 Fondo igual que en las otras secciones
-        backgroundImage: 'url("/images/fondo4.gif")',
+        backgroundImage: 'url("/images/bg3.gif")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        
       }}
     >
       <Fade in={inView} timeout={1000}>
@@ -47,11 +44,14 @@ const Gift = () => {
             transition: "transform 0.8s ease",
           }}
         >
-          {/* Ícono de regalo (MUI), blanco */}
-          <CardGiftcardIcon
+          {/* Imagen de regalo en lugar del ícono */}
+          <Box
+            component="img"
+            src="/images/regalo.gif"
+            alt="Regalo"
             sx={{
-              fontSize: { xs: 80, md: 100 },
-              color: "#000000",
+              width: { xs: 80, md: 110 },
+              height: "auto",
               mb: 1,
             }}
           />
@@ -61,15 +61,15 @@ const Gift = () => {
             sx={{
               fontFamily: "'Catchy'",
               fontSize: { xs: "1.2rem", md: "2rem" },
-              color: "#000000",
-              fontWeight: "semibold",
+              color: "#D096FF",
+                fontWeight: 600,
               maxWidth: 600,
               mb: 4,
             }}
           >
-           Mi mejor regalo es tu asistencia
+            Mi mejor regalo es tu asistencia
             <br />
-            Pero si queres ayudarme con el regalito
+            Pero si querés ayudarme con el regalito...
           </Typography>
 
           <ButtonLinks onClick={handleOpen} label="Ver datos Bancarios" newTab />
@@ -121,16 +121,15 @@ const Gift = () => {
               <CloseIcon />
             </IconButton>
 
-            {/* Ícono de regalo también en el modal */}
-            <CardGiftcardIcon
+            {/* Imagen de regalo también en el modal */}
+            <Box
+              component="img"
+              src="/images/regalo.gif"
+              alt="Regalo"
               sx={{
-                fontSize: { xs: 80, md: 100 },
-                color: "#000000",
+                width: { xs: 80, md: 110 },
+                height: "auto",
                 mb: 1,
-                // fondo circular suave para que se vea sobre fondo claro
-                backgroundColor: "#9A887B",
-                borderRadius: "50%",
-                padding: 1.5,
               }}
             />
 
@@ -141,7 +140,7 @@ const Gift = () => {
               sx={{
                 fontFamily: "'Eyesome'",
                 fontSize: { xs: "2.5rem", md: "3.5rem" },
-                color: "#000000",
+                color: "#D096FF",
                 mb: 1,
               }}
             >
@@ -154,7 +153,7 @@ const Gift = () => {
               sx={{
                 fontFamily: "'Catchy'",
                 fontSize: { xs: "1.3rem", md: "1.5rem" },
-                color: "#000000",
+                color: "#D096FF",
                 mb: 1,
                 fontWeight: 600,
               }}

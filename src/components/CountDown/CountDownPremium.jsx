@@ -1,5 +1,4 @@
 import { Box, Typography, Grid, Slide, Fade } from "@mui/material";
-import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
@@ -41,7 +40,7 @@ const Countdown = () => {
       ref={ref}
       id="info"
       sx={{
-        minHeight: "45vh",
+        minHeight: "35vh",
         py: 8,
         px: 2,
         display: "flex",
@@ -49,7 +48,7 @@ const Countdown = () => {
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
-        backgroundImage: 'url("/images/fondo4.gif")',
+        backgroundImage: 'url("/images/bg3.gif")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -58,20 +57,20 @@ const Countdown = () => {
     >
       <Slide in={inView} direction="up" timeout={800}>
         <Box>
-          <AccessTimeIcon
+          {/* <AccessTimeIcon
             sx={{
               fontSize: { xs: 40, md: 56 },
               color: "#000000",
               mb: 1,
             }}
-          />
+          /> */}
           <Typography
             sx={{
               fontSize: { xs: "3.2rem", md: "4rem" },
               fontFamily: "'Eyesome'",
-              fontWeight: 500,
+              fontWeight: 600,
               mb: 1,
-              color: "#000000",
+              color: "#AD61EB",
             }}
           >
             Faltan...
@@ -87,8 +86,8 @@ const Countdown = () => {
                 <Typography
                   sx={{
                     fontSize: { xs: "2rem", md: "4rem" },
-                    fontWeight: "bold",
-                    color: "#000000",
+                    fontWeight: 600,
+                    color: "#D096FF",
                     fontFamily: "'Catchy'",
                   }}
                 >
@@ -99,7 +98,8 @@ const Countdown = () => {
                     textTransform: "capitalize",
                     fontSize: { xs: "1rem", md: "1.2rem" },
                     fontFamily: "'Catchy'",
-                    color: "#000000",
+                    color: "#D096FF",
+                    fontWeight: 600,
                   }}
                 >
                   {unit}

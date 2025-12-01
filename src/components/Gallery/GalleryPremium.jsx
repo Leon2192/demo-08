@@ -50,7 +50,7 @@ const Gallery = () => {
         justifyContent: "center",
         alignItems: "center",
         // 🖼 Fondo igual que el countdown
-        backgroundImage: 'url("/images/fondo4.gif")',
+        backgroundImage: 'url("/images/bg3.gif")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -72,9 +72,9 @@ const Gallery = () => {
               mb: 4,
               textAlign: "center",
               fontFamily: "'Eyesome'",
-              fontWeight: "bold",
-              color: "#000000",
-              textShadow: "0 2px 4px rgba(0,0,0,0.5)",
+              fontWeight: 600,
+              color: "#AD61EB",
+            
             }}
           >
             Galería

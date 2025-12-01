@@ -1,5 +1,4 @@
 import { Box, Typography, Fade } from "@mui/material";
-import CheckroomIcon from "@mui/icons-material/Checkroom";
 import { useInView } from "react-intersection-observer";
 
 const Dresscode = () => {
@@ -20,8 +19,8 @@ const Dresscode = () => {
         alignItems: "center",
         justifyContent: "center",
         textAlign: "center",
-        // 🖼 Fondo unificado
-        backgroundImage: 'url("/images/fondo4.gif")',
+        // 🖼 Fondo
+        backgroundImage: 'url("/images/bg3.gif")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -34,11 +33,14 @@ const Dresscode = () => {
             transition: "transform 0.6s ease-out",
           }}
         >
-          {/* Ícono de dresscode */}
-          <CheckroomIcon
+          {/* Imagen de dresscode en lugar del ícono */}
+          <Box
+            component="img"
+            src="/images/dress.gif"
+            alt="Dresscode"
             sx={{
-              fontSize: { xs: 80, md: 100 },
-              color: "#000000",
+              width: { xs: 80, md: 110 },
+              height: "auto",
               mb: 1,
             }}
           />
@@ -48,8 +50,8 @@ const Dresscode = () => {
             sx={{
               fontFamily: "'Eyesome'",
               fontSize: { xs: "2.5rem", md: "3.5rem" },
-              color: "#000000",
-              fontWeight: "semibold",
+              color: "#D096FF",
+              fontWeight: 600,
               mb: 1,
             }}
           >
@@ -61,10 +63,11 @@ const Dresscode = () => {
             sx={{
               fontFamily: "'Catchy'",
               fontSize: { xs: "1.2rem", md: "1.5rem" },
-              color: "#000000",
+              color: "#D096FF",
+              fontWeight: 600,
             }}
           >
-           Se solicita evitar vestimenta en tonos violeta y lila
+            Se solicita evitar vestimenta en tonos violeta y lila
           </Typography>
         </Box>
       </Fade>

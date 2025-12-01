@@ -1,5 +1,4 @@
 import { Box, Typography } from "@mui/material";
-import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import ButtonLinks from "./ButtonLinks/ButtonLInks";
 
 const Confirm = () => {
@@ -15,20 +14,22 @@ const Confirm = () => {
         justifyContent: "center",
         textAlign: "center",
         // 🖼 Fondo igual que el resto
-        backgroundImage: 'url("/images/fondo4.gif")',
+        backgroundImage: 'url("/images/bg3.gif")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-      
       }}
     >
       {/* Contenedor interno */}
       <Box>
-        {/* Ícono de check en lugar del gif */}
-        <CheckCircleOutlineIcon
+        {/* Imagen en lugar del ícono de check */}
+        <Box
+          component="img"
+          src="/images/confirm.gif"
+          alt="Confirmación"
           sx={{
-            fontSize: { xs: 80, md: 100 },
-            color: "#000000",
+            width: { xs: 80, md: 110 },
+            height: "auto",
             mb: 1,
           }}
         />
@@ -39,8 +40,8 @@ const Confirm = () => {
           sx={{
             fontFamily: "'Eyesome'",
             fontSize: { xs: "2.5rem", md: "3.5rem" },
-            color: "#000000",
-            fontWeight: "semibold",
+            color: "#AD61EB",
+            fontWeight: 600,
             mb: 2,
           }}
         >
@@ -53,7 +54,8 @@ const Confirm = () => {
           sx={{
             fontFamily: "'Catchy'",
             fontSize: { xs: "1.2rem", md: "1.5rem" },
-            color: "#000000",
+            color: "#D096FF",
+            fontWeight: 600,
             mb: 4,
           }}
         >

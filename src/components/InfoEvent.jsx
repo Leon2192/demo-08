@@ -1,5 +1,4 @@
 import { Box, Typography, Slide, Button } from "@mui/material";
-import CelebrationIcon from "@mui/icons-material/Celebration";
 import { useInView } from "react-intersection-observer";
 
 const InfoEvent = () => {
@@ -19,8 +18,8 @@ const InfoEvent = () => {
       {/* Imagen de fondo más alta */}
       <Box
         component="img"
-        src="/images/fondo4.gif"
-        alt="Ceremonia y Fiesta"
+        src="/images/bg3.gif"
+        alt="Fiesta"
         sx={{
           width: "100%",
           height: { xs: "65vh", md: "75vh" },
@@ -45,11 +44,14 @@ const InfoEvent = () => {
       >
         <Slide in={inView} direction="up" timeout={800}>
           <Box>
-            {/* Ícono de fiesta arriba del título */}
-            <CelebrationIcon
+            {/* Imagen de fiesta arriba del título */}
+            <Box
+              component="img"
+              src="/images/fiesta.gif"
+              alt="Icono fiesta"
               sx={{
-                fontSize: { xs: 48, md: 64 },
-                color: "#000000",
+                width: { xs: 80, md: 110 },
+                height: "auto",
                 mb: 1,
               }}
             />
@@ -59,13 +61,13 @@ const InfoEvent = () => {
               gutterBottom
               sx={{
                 fontFamily: "'Eyesome'",
-                fontSize: { xs: "2rem", md: "2.8rem" },
-                color: "#000000",
+                fontSize: { xs: "3.2rem", md: "4rem" },
+                color: "#AD61EB",
                 fontWeight: 600,
                 lineHeight: 1.2,
               }}
             >
-              Ceremonia & Fiesta
+              Fiesta
             </Typography>
 
             <Typography
@@ -73,8 +75,8 @@ const InfoEvent = () => {
                 mb: 1,
                 fontFamily: "'Catchy', serif",
                 fontSize: { xs: "1rem", md: "1.2rem" },
-                color: "#000000",
-                fontWeight: "bold",
+                color: "#D096FF",
+                fontWeight: 600,
                 lineHeight: 1.4,
               }}
             >
@@ -86,8 +88,8 @@ const InfoEvent = () => {
                 mb: 1,
                 fontFamily: "'Catchy', serif",
                 fontSize: { xs: "1rem", md: "1.2rem" },
-                color: "#000000",
-                fontWeight: "bold",
+                color: "#D096FF",
+                fontWeight: 600,
                 lineHeight: 1.4,
               }}
             >
@@ -99,8 +101,8 @@ const InfoEvent = () => {
                 mb: 3,
                 fontFamily: "'Catchy', serif",
                 fontSize: { xs: "1rem", md: "1.2rem" },
-                color: "#000000",
-                fontWeight: "bold",
+                color: "#D096FF",
+                fontWeight: 600,
                 lineHeight: 1.4,
               }}
             >
@@ -119,7 +121,7 @@ const InfoEvent = () => {
                 px: 3,
                 py: 1,
                 fontFamily: "'Catchy', serif",
-                fontWeight: "bold",
+                fontWeight: 600,
                 "&:hover": {
                   backgroundColor: "#333333",
                   color: "#ffffff",

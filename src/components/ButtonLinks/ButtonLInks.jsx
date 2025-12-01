@@ -11,7 +11,7 @@ export default function ButtonLinks({
   const baseSx = {
     borderRadius: 999,
     px: 4,
-    backgroundColor: "#000000", // 🔑 fondo negro
+    backgroundColor: "#AD61EB", // 🔑 fondo negro
     fontFamily: "'Catchy'",
     color: "#FFFFFF", // 🔑 texto blanco
     boxShadow: "none",
