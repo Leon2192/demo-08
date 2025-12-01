@@ -52,18 +52,12 @@ const Countdown = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-       
+        // ➕ Divider sutil lila arriba
+        borderTop: "1px solid #D096FF",
       }}
     >
       <Slide in={inView} direction="up" timeout={800}>
         <Box>
-          {/* <AccessTimeIcon
-            sx={{
-              fontSize: { xs: 40, md: 56 },
-              color: "#000000",
-              mb: 1,
-            }}
-          /> */}
           <Typography
             sx={{
               fontSize: { xs: "3.2rem", md: "4rem" },

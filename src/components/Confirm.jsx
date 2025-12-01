@@ -18,6 +18,8 @@ const Confirm = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        // ➕ Divider sutil lila arriba
+        borderTop: "2px solid #D096FF",
       }}
     >
       {/* Contenedor interno */}

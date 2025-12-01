@@ -54,7 +54,8 @@ const Gallery = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-  
+        // ➕ Divider sutil lila arriba
+        borderTop: "2px solid #D096FF",
       }}
     >
       <Fade in={inView} timeout={1000}>
@@ -65,7 +66,7 @@ const Gallery = () => {
             mx: "auto",
           }}
         >
-          {/* Título centrado, blanco */}
+          {/* Título centrado */}
           <Typography
             variant="h3"
             sx={{
@@ -74,13 +75,12 @@ const Gallery = () => {
               fontFamily: "'Eyesome'",
               fontWeight: 600,
               color: "#AD61EB",
-            
             }}
           >
             Galería
           </Typography>
 
-          {/* Imágenes una debajo de la otra (mobile first) */}
+          {/* Imágenes una debajo de la otra */}
           {images.map((src, index) => (
             <Box
               key={index}
@@ -122,7 +122,7 @@ const Gallery = () => {
         </Box>
       </Fade>
 
-      {/* MODAL (lightbox simple, sin Swiper) */}
+      {/* MODAL (lightbox simple) */}
       {open && (
         <Box
           sx={{

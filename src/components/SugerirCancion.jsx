@@ -23,6 +23,8 @@ const SuggestSong = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        // ➕ Divider sutil lila arriba
+        borderTop: "2px solid #D096FF",
       }}
     >
       <Fade in={inView} timeout={1000}>
@@ -51,7 +53,7 @@ const SuggestSong = () => {
             sx={{
               fontFamily: "'Prata'",
               fontSize: { xs: "1.4rem", md: "1.8rem" },
-               color: "#AD61EB",
+              color: "#AD61EB",
               fontWeight: 600,
               mb: 1,
             }}

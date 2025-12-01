@@ -35,6 +35,8 @@ const Gift = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        // ➕ Divider sutil lila arriba
+        borderTop: "2px solid #D096FF",
       }}
     >
       <Fade in={inView} timeout={1000}>
@@ -62,7 +64,7 @@ const Gift = () => {
               fontFamily: "'Catchy'",
               fontSize: { xs: "1.2rem", md: "2rem" },
               color: "#D096FF",
-                fontWeight: 600,
+              fontWeight: 600,
               maxWidth: 600,
               mb: 4,
             }}

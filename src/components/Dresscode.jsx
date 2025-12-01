@@ -24,6 +24,8 @@ const Dresscode = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        // ➕ Divider sutil lila arriba
+        borderTop: "2px solid #D096FF",
       }}
     >
       <Fade in={inView} timeout={800}>
