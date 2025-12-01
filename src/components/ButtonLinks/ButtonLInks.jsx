@@ -32,7 +32,7 @@ export default function ButtonLinks({
 
     /* Al presionar vuelve a negro y achica */
     "&:active, &:hover:active": {
-      backgroundColor: "#000000",
+      backgroundColor: "#AD61EB",
       color: "#FFFFFF",
       transform: "scale(0.98)",
     },
