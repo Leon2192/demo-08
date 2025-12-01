@@ -8,7 +8,7 @@ const InfoEvent = () => {
   });
 
   const direccion =
-    "Calle n 2219 entre 894 y 893 - San Francisco Solano (Centro Español)";
+    "Calle 840 Nº 2219 entre 894 y 893 - San Francisco Solano (Centro Español)";
 
   const mapsUrl =
     "https://www.google.com/maps/place/C.+840+2219,+B1881+San+Francisco+Solano,+Provincia+de+Buenos+Aires/@-34.7757988,-58.3151841,17z/data=!3m1!4b1!4m6!3m5!1s0x95a32c4274618407:0xf2c3f23651bfa79b!8m2!3d-34.7757989!4d-58.3105707!16s%2Fg%2F11y826z4fd?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D";
