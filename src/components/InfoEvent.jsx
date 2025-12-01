@@ -115,7 +115,7 @@ const InfoEvent = () => {
               target="_blank"
               rel="noopener noreferrer"
               sx={{
-                backgroundColor: "#000000",
+                backgroundColor: "#AD61EB",
                 color: "#ffffff",
                 borderRadius: "50px",
                 px: 3,
